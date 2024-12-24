@@ -1,0 +1,37 @@
+/* Container for the header */
+.header-container {
+  background: linear-gradient(to right, #2a2a72, #009ffd); /* Gradient background */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow for aesthetic look */
+   /* Rounded corners at the top */
+}
+
+/* Title styling */
+.header-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Subtitle styling */
+.header-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 10px;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+}
